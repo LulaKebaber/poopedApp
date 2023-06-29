@@ -8,17 +8,33 @@
 
 /* Begin PBXBuildFile section */
 		251A27B32A4D8BD6007E73C9 /* poopedAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 251A27B22A4D8BD6007E73C9 /* poopedAppApp.swift */; };
-		251A27B52A4D8BD6007E73C9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 251A27B42A4D8BD6007E73C9 /* ContentView.swift */; };
+		251A27B52A4D8BD6007E73C9 /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 251A27B42A4D8BD6007E73C9 /* RegistrationView.swift */; };
 		251A27B72A4D8BD8007E73C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 251A27B62A4D8BD8007E73C9 /* Assets.xcassets */; };
 		251A27BA2A4D8BD8007E73C9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 251A27B92A4D8BD8007E73C9 /* Preview Assets.xcassets */; };
+		251A27C22A4D91BC007E73C9 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 251A27C12A4D91BC007E73C9 /* Helper.swift */; };
+		251A27C62A4DA3BB007E73C9 /* NameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 251A27C52A4DA3BB007E73C9 /* NameView.swift */; };
+		251A27C82A4DA3C6007E73C9 /* SurnameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 251A27C72A4DA3C6007E73C9 /* SurnameView.swift */; };
+		251A27CA2A4DA3E6007E73C9 /* AgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 251A27C92A4DA3E6007E73C9 /* AgeView.swift */; };
+		251A27CC2A4DA412007E73C9 /* SexView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 251A27CB2A4DA412007E73C9 /* SexView.swift */; };
+		251A27CE2A4DA41A007E73C9 /* TownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 251A27CD2A4DA41A007E73C9 /* TownView.swift */; };
+		251A27D02A4DA451007E73C9 /* CountryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 251A27CF2A4DA451007E73C9 /* CountryView.swift */; };
+		251C650D2A4E30F800A9B78F /* PhoneNumberView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 251C650C2A4E30F800A9B78F /* PhoneNumberView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		251A27AF2A4D8BD6007E73C9 /* poopedApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = poopedApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		251A27B22A4D8BD6007E73C9 /* poopedAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = poopedAppApp.swift; sourceTree = "<group>"; };
-		251A27B42A4D8BD6007E73C9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		251A27B42A4D8BD6007E73C9 /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
 		251A27B62A4D8BD8007E73C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		251A27B92A4D8BD8007E73C9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		251A27C12A4D91BC007E73C9 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		251A27C52A4DA3BB007E73C9 /* NameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameView.swift; sourceTree = "<group>"; };
+		251A27C72A4DA3C6007E73C9 /* SurnameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurnameView.swift; sourceTree = "<group>"; };
+		251A27C92A4DA3E6007E73C9 /* AgeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgeView.swift; sourceTree = "<group>"; };
+		251A27CB2A4DA412007E73C9 /* SexView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SexView.swift; sourceTree = "<group>"; };
+		251A27CD2A4DA41A007E73C9 /* TownView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TownView.swift; sourceTree = "<group>"; };
+		251A27CF2A4DA451007E73C9 /* CountryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryView.swift; sourceTree = "<group>"; };
+		251C650C2A4E30F800A9B78F /* PhoneNumberView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneNumberView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +67,19 @@
 		251A27B12A4D8BD6007E73C9 /* poopedApp */ = {
 			isa = PBXGroup;
 			children = (
+				251A27C02A4D9192007E73C9 /* New Group */,
 				251A27B22A4D8BD6007E73C9 /* poopedAppApp.swift */,
-				251A27B42A4D8BD6007E73C9 /* ContentView.swift */,
+				251A27B42A4D8BD6007E73C9 /* RegistrationView.swift */,
 				251A27B62A4D8BD8007E73C9 /* Assets.xcassets */,
 				251A27B82A4D8BD8007E73C9 /* Preview Content */,
+				251A27C72A4DA3C6007E73C9 /* SurnameView.swift */,
+				251A27C52A4DA3BB007E73C9 /* NameView.swift */,
+				251A27C12A4D91BC007E73C9 /* Helper.swift */,
+				251A27C92A4DA3E6007E73C9 /* AgeView.swift */,
+				251A27CB2A4DA412007E73C9 /* SexView.swift */,
+				251A27CD2A4DA41A007E73C9 /* TownView.swift */,
+				251A27CF2A4DA451007E73C9 /* CountryView.swift */,
+				251C650C2A4E30F800A9B78F /* PhoneNumberView.swift */,
 			);
 			path = poopedApp;
 			sourceTree = "<group>";
@@ -65,6 +90,13 @@
 				251A27B92A4D8BD8007E73C9 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		251A27C02A4D9192007E73C9 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +169,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				251A27B52A4D8BD6007E73C9 /* ContentView.swift in Sources */,
+				251A27CE2A4DA41A007E73C9 /* TownView.swift in Sources */,
+				251A27B52A4D8BD6007E73C9 /* RegistrationView.swift in Sources */,
 				251A27B32A4D8BD6007E73C9 /* poopedAppApp.swift in Sources */,
+				251A27D02A4DA451007E73C9 /* CountryView.swift in Sources */,
+				251A27C62A4DA3BB007E73C9 /* NameView.swift in Sources */,
+				251A27CC2A4DA412007E73C9 /* SexView.swift in Sources */,
+				251C650D2A4E30F800A9B78F /* PhoneNumberView.swift in Sources */,
+				251A27C22A4D91BC007E73C9 /* Helper.swift in Sources */,
+				251A27C82A4DA3C6007E73C9 /* SurnameView.swift in Sources */,
+				251A27CA2A4DA3E6007E73C9 /* AgeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
