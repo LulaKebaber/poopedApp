@@ -16,7 +16,9 @@ struct RegistrationView: View {
         Information(text: "Add your age", destination: AnyView(AgeView())),
         Information(text: "Add your sex", destination: AnyView(SexView())),
         Information(text: "Add your town", destination: AnyView(TownView())),
-        Information(text: "Add your country", destination: AnyView(CountryView()))
+        Information(text: "Add your country", destination: AnyView(CountryView())),
+        Information(text: "Phone Number",
+                   destination: AnyView(PhoneNumberView()))
     ]
     
     var body: some View {
